@@ -1,6 +1,7 @@
 # README
 
 ### A few notes on the solution:
+- The solution contain 2 projects, the `DepthChart` project is a Console App with all the classes and models required. Running the `Program.cs` file will provide the same output as the challenge description. The test project `DepthChart.Tests` have unit tests to test the functionality of the `TeamDepthChart` class. The tests cover various scenarios including adding players, removing players, and retrieving backups. The tests also include edge cases such as adding a player to a non-existent position and removing a player who is not in the depth chart.
 - This solution allows for multiple sports with the ability to have many teams per sports.
 - A team object contains the `Sport` type (`enum`) and the `Name` of the team (`string`).
 - Each time a `TeamDepthChart` object is created, it is associated with a team. This allows the application to have
@@ -14,8 +15,6 @@
   class. The constructor will look like this `public TeamDepthChart(Team team, int gameRound)`.
 - There are comments in the `TeamDepthChart.cs` file to explain the logic behind each method. This is for the purpose of this submission. In a real-world scenario,
   I would avoid adding comments to the code and instead focus on writing clean, self-explanatory code with meaningful method and variable names.
-- A unit test project is created to test the functionality of the `TeamDepthChart` class. The tests cover various scenarios including adding players,
-  removing players, and retrieving backups. The tests also include edge cases such as adding a player to a non-existent position and removing a player who is not in the depth chart.
 
 ### A few suggestions:
 - We can add a method to move a player from one position to another; it might be useful in some cases.
