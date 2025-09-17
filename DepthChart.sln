@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepthChart", "DepthChart\DepthChart.csproj", "{699452DE-4589-470C-A164-AEF35A562A03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepthChart.Tests", "DepthChart.Tests\DepthChart.Tests.csproj", "{10D2C2B0-338A-4722-8864-BC42AF557805}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{699452DE-4589-470C-A164-AEF35A562A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{699452DE-4589-470C-A164-AEF35A562A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{699452DE-4589-470C-A164-AEF35A562A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{699452DE-4589-470C-A164-AEF35A562A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10D2C2B0-338A-4722-8864-BC42AF557805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D2C2B0-338A-4722-8864-BC42AF557805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D2C2B0-338A-4722-8864-BC42AF557805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D2C2B0-338A-4722-8864-BC42AF557805}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
