@@ -2,9 +2,9 @@ using DepthChart.Models.Enums;
 
 namespace DepthChart.Models;
 
-public record Player(int Number, string Name, Sport Sport)
+public class Player(int number, string name, Sport sport)
 {
-    public int Number { get; set; } = Number;
-    public string Name { get; set; } = Name;
-    public Sport Sport { get; set; } = Sport;
+    public int Number { get; set; } = number;
+    public string Name { get; set; } = name;
+    public Sport Sport { get; set; } = sport;
 }
